@@ -1,6 +1,7 @@
 import './globals.css'  
 import type { Metadata } from 'next'  
-import { Inter } from 'next/font/google'  
+import { Inter } from 'next/font/google'
+import { SpeedInsights } from '@vercel/speed-insights/next'  
 
 const inter = Inter({ subsets: ['latin'] })  
 
@@ -23,7 +24,11 @@ export default function RootLayout({
         <link rel="apple-touch-icon" href="/logo-zephyr.png" />  
         <meta name="theme-color" content="#ffffff" />  
       </head>  
-      <body className={inter.className}>{children}</body>  
+      <body 
+        className={inter.className}>
+        {children}
+        <SpeedInsights />
+      </body>  
     </html>  
   )  
 }
