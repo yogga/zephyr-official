@@ -25,7 +25,7 @@ export default function Home() {
           <a href="https://www.instagram.com/zephyr.idofficial/" target="_blank" rel="noopener noreferrer">  
             <Button className="w-full bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white flex items-center justify-center mb-4">  
               <Image  
-                src="/download.png"  
+                src="/instagram-new.png"  
                 alt="Instagram Logo"  
                 width={24}  
                 height={24}  
