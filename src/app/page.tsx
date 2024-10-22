@@ -35,7 +35,7 @@ export default function Home() {
             </Button>  
           </a>  
 
-          <a href="https://wa.me/+6281235471245" target="_blank" rel="noopener noreferrer">  
+          <a href="https://wa.me/+6282334132922" target="_blank" rel="noopener noreferrer">  
             <Button className="w-full bg-green-500 hover:bg-green-600 text-white flex items-center justify-center mb-4">  
               <Image  
                 src="/wa.svg"  
